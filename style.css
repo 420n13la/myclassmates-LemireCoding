@@ -1,3 +1,84 @@
 body{
+	background-image: linear-gradient(to top, gold, yellow ,yellow,lemonchiffon,lightgoldenrodyellow,lightyellow);
+		color:white;
+	font-family: Arial, serif;
+	width: 100%;
+	background-repeat: no-repeat;
+
+
+}
+
+#wrapper{
+	width: 80%;
+	text-align: center;
+	margin:13px auto;
+}
+
+header{
+     text-align: center;
+     margin-top: 50px;
+}
+
+h1 {
+	color: white;
+	border-radius: 10px 25px;
+	border-color: yellow;
+	border-style: dashed;
+	display: inline-block;
+	padding:10px 20px 10px 20px;
+	border-width: 3px;
+	text-align: center;
+	font-size: 175%;
+	font-weight: bold;
+	opacity: 0.5;
+}
+
+.three-columns{
+	display: inline-block;
+	width: 30%;
+	padding:3px;
+	border:2px solid white;
+	color: white;
+	margin-bottom: 20px;
+}
+
+.thumbnail{
+	width:100%;
+}
+
+figure{
+	margin:1px;
+}
+
+figcaption{
+	padding-bottom: 10px;
+}
+
+
+hr{
+	border:3px dashed yellow;
+	border-style: none none dashed;
+}
+
+footer{
+	padding-top:7px;
+	text-align: center;
+	color: white;
+}
+
+a {
+	text-decoration: underline overline;
+	color: yellow;
+}
+
+#wrapper2{
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 900px;
+	width:999px;
+	background-image: url(image/pattern.png);
+	box-shadow: 15px 15px black;
 	
 }
+
